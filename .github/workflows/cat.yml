@@ -12,9 +12,16 @@ jobs:
         with:
           name: cat
           path: cat.png
-
+          
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: my_file.txt
+          retention-days: 5
+          
   download:
-    name: Display results
+    name: Download cat
     runs-on: self-hosted
     steps:
       - name: Download math result for job 2
