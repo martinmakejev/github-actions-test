@@ -11,7 +11,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: cat.png
-          path: ./cat.png
+          path: ././cat.png
           
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v3
