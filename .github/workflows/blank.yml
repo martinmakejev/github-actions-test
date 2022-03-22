@@ -39,3 +39,8 @@ jobs:
         run: |
           dir
           cp *.jpg C:\Users\TA-19E-118\Desktop\www\
+          
+      - name: Copy cat index.html
+        run: |
+          dir
+          cp index.html C:\Users\TA-19E-118\Desktop\www\
